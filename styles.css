@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: linear-gradient(rgb(14, 13, 13), 10%, rgba(218, 72, 14, 0.932));
+  color: #0f141e;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(247, 56, 8);
+}
+
+a:visited {
+  color: purple;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.photo {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 30px rgba(247, 56, 8, 0.8);
+}
+
+.about {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.aboutText {
+  margin-left: 40px;
+}
+
+.aboutText p {
+  font-style: italic;
+  font-weight: bold;
+  color: #ddd;
+  margin: 0;
+}
+
+.aboutText h4 {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.about h1 {
+  color: rgb(247, 56, 8);
+}
+
+.info {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.info h2 {
+  margin-bottom: 10px;
+}
+
+.bgPeach {
+  background: #ffe5e5;
+}
+
+.bgMint {
+  background: #e5ffe7;
+}
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: rgb(247, 56, 8);
+}
+
+.delicious {
+  padding: 0 20px;
+  list-style: none;
+}
+
+.delicious li {
+  color: green;
+  margin-bottom: 10px;
+  background: url(bamboo.png) no-repeat 0 2px;
+  padding-left: 24px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.delicious li:nth-child(2) {
+  background: url(viktoria.png) no-repeat 0 2px;
+  color: red;
+}
+
+.delicious li:nth-child(3) {
+  background: url(grib.jpg) no-repeat 0 2px;
+  color:rgba(44, 9, 1, 0.8)
+}
+
+.table {
+  width: 100%;
+}
+
+.table thead {
+  font-size: 18px;
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 10px;
+  color: rgba(218, 72, 14);
+  font-size: 16px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.formNameEmail {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.formNameEmail .formMessage {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.formNameEmail.formMessage:last-child {
+  margin-right: 0;
+}
+
+.formMessage label {
+  display: block;
+  font-size: 16px;
+  color: #ddd;
+}
+
+.formMessage input,
+.formMessage textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  color: black;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.formMessage input::placeholder,
+.formMessage textarea::placeholder {
+  color: #ddd;
+}
+
+.formMessage textarea {
+  width: 370px;
+  height: 150px;
+}
+
+@media (max-width: 650px) {
+    .formNameEmail {
+      display: block;
+    }
+  
+    .formNameEmail .formMessage {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    #message {
+      width: auto;
+    }
+
+    .about {
+      display: block;
+      text-align: center;
+    }
+  }

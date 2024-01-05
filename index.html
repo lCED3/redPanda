@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="red panda, panda, little panda">
+  <meta name="description" content="Это страничка о красной панде">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="logo.jpg">
+  <title>Red Panda</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="about">
+      <img src="redPanda.jpg" alt="Red Panda" class="photo">
+        <div class="aboutText">
+          <h1>Красная Панда</h1>
+          <p><strong>Млекопитающее</strong> из семейства пандовых.</p>
+          <p>Ведет в основном сумеречный образ <em>жизни.</em></p>
+          <p>Главное занятие это поиск пищи.</p>
+          <h4>Ссылки на доп. информацию:</h4>
+          <a href="https://www.youtube.com/results?search_query=red+panda" target="_blank">YouTube</a>
+          <strong>|</strong>
+          <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BD%D0%B4%D0%B0" target="_blank">Wikipedia</a>
+        </div>
+    </div>
+
+    <div class="info bgMint">
+      <h2>Любимые лакомства:</h2>
+      <ol class="delicious">
+        <li>Бамбук</li>
+        <li>Ягоды</li>
+        <li>Грибы</li>
+      </ol>
+    </div>
+
+    <div class="info bgPeach">
+      <h2>Интересные факты:<h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Названия</th>
+            <th>Среда обитания</th>
+            <th>Враги</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Малая панда</td>
+            <td>Китай</td>
+            <td>Лиса</td>
+          </tr>
+          <tr>
+            <td>Кошачий медведь</td>
+            <td>Индия</td>
+            <td>Ирбис</td>
+          </tr>
+          <tr>
+            <td>Красная(рыжая) панда</td>
+            <td>Непал</td>
+            <td>Красный волк</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <form action="/" class="form">
+      <h2>Связаться с нами:</h2>
+      <div class="formNameEmail">
+
+        <div class="formMessage">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
+
+        <div class="formMessage">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+      </div>
+
+      <div class="formMessage">
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        <img src="red-panda.gif" alt="red-panda" width="150">
+      </div>
+
+      <input class="btn" type="submit" value="Отправить!">
+    </form>
+  </div>
+</body>
+</html>
